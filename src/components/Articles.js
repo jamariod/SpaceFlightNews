@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Card, Col, Row, Container, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
+
 function Articles() {
 
   const [arts, setArts] = useState([]);
@@ -40,12 +41,10 @@ function Articles() {
             
                <Card.Img variant="top" style={{ width: '18rem', height: '18rem'}} src={art.imageUrl} alt={`Space Flight New Article ${art.title}image`}/>
                <Card.Body>
-                 <Card.Title>{`Title: ${art.title}`}</Card.Title>
+                 <Card.Title className="text">{`${art.title}`}</Card.Title>
                  <Link to={`/articles/${art.id}`} className="btn btn-primary">
                  {art.newsSite}
-                 {/* <Button variant="primary">
-                   
-                   </Button> */}
+                
                    </Link>
                </Card.Body>
              </Card>
@@ -53,8 +52,9 @@ function Articles() {
          </Col>
           ))}
           </Row>
-      ) : <Spinner animation="border" />}
+      ) : <Spinner animation="border" variant="danger" style={{ position: "fixed", top: "50%", left: "50%" }}/>}
      </Container>
+    
     </Fragment>
   );
 }
