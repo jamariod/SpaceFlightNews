@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 import NavComponent from './components/NavComponent';
 import About from './components/About';
@@ -12,6 +13,7 @@ function App() {
 
   return (
    <div>
+     
     <Router>
       
     <div className="App">
@@ -28,7 +30,7 @@ function App() {
     
     </div>
   </Router>
-
+  
   <video autoPlay loop muted  
     style={{
       position: "fixed",
@@ -43,6 +45,7 @@ function App() {
   >
      <source src={backgroundVideo} type='video/mp4'/> 
       </video>
+      
 </div>
 );
   
