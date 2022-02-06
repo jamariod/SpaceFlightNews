@@ -24,8 +24,8 @@ function Article({ match }) {
 
 useEffect(() => {
   fetchArticle();
-  console.log(match);
-}, []);
+ 
+}, [newArticle]);
 
   return (
     <div className="mt-5 pt-5" >
