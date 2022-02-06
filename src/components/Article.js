@@ -25,7 +25,7 @@ function Article({ match }) {
 useEffect(() => {
   fetchArticle();
  
-}, []);
+});
 
   return (
     <div className="mt-5 pt-5" >

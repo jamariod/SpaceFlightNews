@@ -31,7 +31,7 @@ function App() {
     </div>
   </Router>
   
-  <video autoPlay loop muted  
+  <video autoPlay="autoplay" loop muted  
     style={{
       position: "fixed",
       width: "100%",
