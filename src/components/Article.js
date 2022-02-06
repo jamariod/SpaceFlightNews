@@ -24,8 +24,8 @@ function Article({ match }) {
 
 useEffect(() => {
   fetchArticle();
-  //eslint-disable-next-line
-}, [newArticle]);
+ 
+}, []);
 
   return (
     <div className="mt-5 pt-5" >
