@@ -21,7 +21,7 @@ function Articles() {
 
   useEffect(()=>{
     setFilteredData(
-      arts.filter((art)=> art.newsSite.toLowerCase().includes(search.toLowerCase()))
+      arts.filter((art)=> art.title.toLowerCase().includes(search.toLowerCase()))
     )
   }, [search, arts])
 
