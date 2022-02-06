@@ -24,7 +24,7 @@ function Article({ match }) {
 
 useEffect(() => {
   fetchArticle();
- 
+  //eslint-disable-next-line
 }, [newArticle]);
 
   return (
