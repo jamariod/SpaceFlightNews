@@ -13,7 +13,7 @@ function Articles() {
   //  const [loading, setLoading] = useState(false);
 
   useEffect(()=>{
-    axios.get('/v3/articles?_limit=200')
+    axios.get('https://api.spaceflightnewsapi.net/v3/articles?_limit=200')
     .then((response)=>{
       setArts(response.data)
     })

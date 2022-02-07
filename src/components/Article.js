@@ -11,7 +11,7 @@ function Article({ match }) {
  
   const fetchArticle = async () => {
     try {
-      const res = await axios.get(`/v3/articles/${match.params.id}`);
+      const res = await axios.get(`https://api.spaceflightnewsapi.net/v3/articles/${match.params.id}`);
       const spaceFlightArt = res.data;
       const apiArt = spaceFlightArt;
       console.log(apiArt);
