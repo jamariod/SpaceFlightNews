@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/SpaceFlightNews/static/css/main.3535a8f6.css",
-    "main.js": "/SpaceFlightNews/static/js/main.d55b59cd.js",
+    "main.js": "/SpaceFlightNews/static/js/main.3bafbe94.js",
     "static/js/787.e4817289.chunk.js": "/SpaceFlightNews/static/js/787.e4817289.chunk.js",
     "static/media/space.mp4": "/SpaceFlightNews/static/media/space.217bc138c2eb8d98fc50.mp4",
     "static/media/half-moon.svg": "/SpaceFlightNews/static/media/half-moon.788e3187c2a708c6d3fda44be3c5d4bb.svg",
     "index.html": "/SpaceFlightNews/index.html",
     "main.3535a8f6.css.map": "/SpaceFlightNews/static/css/main.3535a8f6.css.map",
-    "main.d55b59cd.js.map": "/SpaceFlightNews/static/js/main.d55b59cd.js.map",
+    "main.3bafbe94.js.map": "/SpaceFlightNews/static/js/main.3bafbe94.js.map",
     "787.e4817289.chunk.js.map": "/SpaceFlightNews/static/js/787.e4817289.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3535a8f6.css",
-    "static/js/main.d55b59cd.js"
+    "static/js/main.3bafbe94.js"
   ]
 }
