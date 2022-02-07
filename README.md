@@ -10,8 +10,8 @@ Space Flight News is a website where space exploration enthusiast can stay up-to
 ## Built with 
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [ReactDOM](https://reactrouter.com/) - The react-dom package provides DOM-specific methods that can be used at the top level of your app and as an escape hatch to get outside of the React model if you need to.
-- [React Router](https://reactjs.org/) - React Router DOM is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them.
+- [ReactDOM](https://reactjs.org/docs/react-dom.html) - The react-dom package provides DOM-specific methods that can be used at the top level of your app and as an escape hatch to get outside of the React model if you need to.
+- [React Router](https://reactrouter.com/) - React Router DOM is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them.
 - [React Bootstrap](https://react-bootstrap.github.io/) - As one of the oldest React libraries, React-Bootstrap has evolved and grown alongside React, making it an excellent choice as your UI foundation.
 - [React Bootstrap with Material Design](https://www.npmjs.com/package/mdbreact) - Built with React and Bootstrap 4. Absolutely no jQuery.
 400+ material UI elements, 600+ material icons, 74 CSS animations, SASS files and many more.
