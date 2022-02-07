@@ -1,72 +1,40 @@
-# Getting Started with Create React App
+SpaceFlightNews
+============
+## Overview 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Space Flight News is a website where space exploration enthusiast can stay up-to-date with the latest Spaceflight news.
 
-## Available Scripts
+![sfn-github](https://user-images.githubusercontent.com/24234259/152699404-52cd2502-dc82-473e-b7f3-c8b69469f701.gif)
 
-In the project directory, you can run:
+---
+## Built with 
 
-### `npm start`
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [ReactDOM](https://reactjs.org/docs/react-dom.html) - The react-dom package provides DOM-specific methods that can be used at the top level of your app and as an escape hatch to get outside of the React model if you need to.
+- [React Router](https://reactrouter.com/) - React Router DOM is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them.
+- [React Bootstrap](https://react-bootstrap.github.io/) - As one of the oldest React libraries, React-Bootstrap has evolved and grown alongside React, making it an excellent choice as your UI foundation.
+- [React Bootstrap with Material Design](https://www.npmjs.com/package/mdbreact) - Built with React and Bootstrap 4. Absolutely no jQuery.
+400+ material UI elements, 600+ material icons, 74 CSS animations, SASS files and many more.
+All fully responsive. All compatible with different browsers..
+- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+- [Axios](https://www.npmjs.com/package/axios) - Promise based HTTP client for the browser and node.js.
+- [Spaceflight News API](https://spaceflightnewsapi.net/) - Spaceflight News API (SNAPI) enables developers to add the latest spaceflight news to their apps.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How To Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-### `npm test`
+```bash
+# Clone this repository
+$ git clone https://github.com/jamariod/SpaceFlightNews.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Go into the repository
+$ cd SpaceFlightNews
 
-### `npm run build`
+# Install dependencies
+$ npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Run the app
+$ npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# SpaceFlightNews
-# SpaceFlightNews
