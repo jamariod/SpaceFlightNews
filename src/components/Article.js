@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Card, Container, Spinner } from 'react-bootstrap';
+import { Card, Container, Spinner, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 
@@ -28,12 +28,14 @@ useEffect(() => {
 });
 
   return (
-    <div className="mt-5 pt-5" >
-      <Container className="mt-5 pt-5 col-lg-4 col-lg-offset-4">
+    <div className="mt-5 pt-5 mx-auto">
+      <Container className="mt-5 pt-5">
+      <Row>
+      <Col sm={12} md={6} lg={4}>
        {loading ? ( 
-          <Card className="my-1 p-1 rounded h-90 mt-5 pt-5 artCard" style={{ width: '30rem' }}>
+          <Card className="m-auto mt-5" style={{ width: '18rem' }}>
+             <Card.Img variant="top" style={{ width: '18rem', height: '15rem'}} src={newArticle.imageUrl} alt={`Space news article${newArticle.title}image`}/>
        <Card.Body>
-       <Card.Img variant="top" style={{ width: '20rem', height: '20rem'}} src={newArticle.imageUrl} alt={`Space news article${newArticle.title}image`}/>
          <Card.Title>
          {`Name: ${newArticle.title}`}
          </Card.Title>
@@ -53,7 +55,10 @@ useEffect(() => {
     </Card>
    
        ) : <Spinner animation="border" variant="danger" style={{ position: "fixed", top: "50%", left: "50%"}} />} 
-    </Container>
+   
+    </Col>
+  </Row>
+  </Container>
     </div>
   );
 }

@@ -38,9 +38,7 @@ function Articles() {
     </Container>
     {filteredData.length === 0 ? <h1 className="mt-5 pt-5 resultsText">No results found</h1>  : 
 
-
     <MDBContainer>
-     
       <div className="scrollbar  mt-5 mx-auto" style={scrollContainerStyle}>
     
       <Fragment>
@@ -50,7 +48,7 @@ function Articles() {
       {filteredData.map((val) => (
        <Col sm={12} md={6} lg={4} key={val.id} className="myKey">
          <>
-        <Card className="mt-5" style={{ width: '18rem'}}>
+        <Card className="m-auto mt-5" style={{ width: '18rem'}}>
             <Card.Img variant="top" style={{ width: '18rem', height: '12rem'}} src={val.imageUrl} alt={`Space Flight New Article ${val.title}image`}/>
             <Card.Body>
               <Card.Title className="text">{`${val.title}`}</Card.Title>
