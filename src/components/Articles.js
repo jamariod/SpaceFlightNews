@@ -39,7 +39,7 @@ function Articles() {
     {filteredData.length === 0 ? <h1 className="mt-5 pt-5 resultsText">No results found</h1>  : 
 
     <MDBContainer>
-      <div className="scrollbar  mt-5 mx-auto" style={scrollContainerStyle}>
+      <div className="scrollbar mt-5 mx-auto" style={scrollContainerStyle}>
     
       <Fragment>
       

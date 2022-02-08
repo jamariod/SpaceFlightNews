@@ -31,10 +31,10 @@ useEffect(() => {
     <div className="mt-5 pt-5 mx-auto">
       <Container className="mt-3 pt-3">
       <Row>
-      <Col sm={12} md={6} lg={4}>
+      <Col sm={12} md={6} lg={4} className="mt-2 pt-2 mx-auto">
        {loading ? ( 
-          <Card className="m-auto mt-5" style={{ width: '18rem' }}>
-             <Card.Img variant="top" style={{ width: '18rem', height: '12rem'}} src={newArticle.imageUrl} alt={`Space news article${newArticle.title}image`}/>
+          <Card className="m-auto mt-5" style={{ width: '20rem' }}>
+             <Card.Img variant="top" style={{ width: '20rem', height: '12rem'}} src={newArticle.imageUrl} alt={`Space news article${newArticle.title}image`}/>
        <Card.Body>
          <Card.Title>
          {`Name: ${newArticle.title}`}
