@@ -5,6 +5,7 @@ import NavComponent from './components/NavComponent';
 import About from './components/About';
 import Articles from './components/Articles';
 import Article from './components/Article';
+import Blogs from './components/Blogs';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import backgroundVideo from './video/space.mp4';
@@ -25,6 +26,7 @@ function App() {
         <Route path="/about" component={About}/>
         <Route path="/articles" exact component={Articles}/>
         <Route path="/articles/:id" component={Article}/>
+        <Route path="/blogs" exact component={Blogs}/>
         </Switch>
       </main>
     

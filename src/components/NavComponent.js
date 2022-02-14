@@ -33,6 +33,7 @@ function NavComponent() {
         navbarScroll
       >
         <Nav.Link as={Link} to="/articles">Articles</Nav.Link>
+        <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
         <Nav.Link as={Link} to="/about">About</Nav.Link>
       </Nav>
     </Navbar.Collapse>
